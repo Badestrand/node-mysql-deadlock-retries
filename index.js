@@ -1,8 +1,5 @@
 'use strict'
 
-// Siehe https://github.com/felixge/node-mysql/issues/572
-// Als Modul veroffentlichen?
-
 
 function createQueryProxy(connection, retries, minMillis, maxMillis) {
 	retries = Number.isInteger(retries)? retries : 5
