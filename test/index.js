@@ -67,7 +67,7 @@ var cfg = {
 	maxMillis: 50
 }
 
-db.query = proxyMysqlDeadlockRetries(db, cfg.retries, cfg.minMillis, cfg.maxMillis)
+proxyMysqlDeadlockRetries(db, cfg.retries, cfg.minMillis, cfg.maxMillis)
 
 
 describe('Testing mysql-deadlock-retries', () => {

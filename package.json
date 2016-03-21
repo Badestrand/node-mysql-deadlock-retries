@@ -6,7 +6,7 @@
   "devDependencies": {
     "mocha": "^2.4.5"
   },
-  "name": "mysql-deadlock-retries",
+  "name": "node-mysql-deadlock-retries",
   "description": "Add retry capabilities for the node-mysql module to dodge the mysql deadlock error",
   "version": "1.0.0",
   "main": "index.js",
